@@ -127,6 +127,16 @@
       ]
     },
     {
+      "name": "Python",
+      "level": "Medium",
+      "keywords": null
+    },
+    {
+      "name": "Java",
+      "level": "Medium",
+      "keywords": ["Web development", "Backend", "Server"]
+    },
+    {
       "name": "Node",
       "level": "Advanced",
       "keywords": ["Web development", "Backend", "JavaScript", "Servidor"]
@@ -135,6 +145,11 @@
       "name": "MySQL",
       "level": "Medium",
       "keywords": ["Bases de Datos", "SQL", "Database", "Backend"]
+    },
+    {
+      "name": "MongoDB",
+      "level": "Medium",
+      "keywords": ["NoSQL", "Database", "Backend"]
     },
     {
       "name": "Git",
@@ -161,6 +176,11 @@
       "name": "React",
       "level": "Advanced",
       "keywords": ["Web development", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "AstroBuild",
+      "level": "Advanced",
+      "keywords": ["Web development", "Frontend", "Static Generation"]
     }
   ],
   "languages": [

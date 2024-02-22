@@ -1,24 +1,23 @@
 ---
-import Section from "../Section.astro"
+import Section from "../Section.astro";
 
-import { education } from "@cv"
+import { education } from "@cv";
 ---
 
 <Section title="Education">
   <ul>
     {
       education.map(({ institution, startDate, endDate, area, studyType }) => {
-        let years = null
-        const startYear = new Date(startDate).getFullYear()
+        let years = null;
+        const startYear = new Date(startDate).getFullYear();
         const endYear =
-          endDate != null ? new Date(endDate).getFullYear() : "Actual"
+          endDate != null ? new Date(endDate).getFullYear() : "Actual";
 
         if (endYear === startYear) {
-            years = `${startYear}`
+          years = `${startYear}`;
         } else {
-            years = `${startYear} - ${endYear}`
+          years = `${startYear} - ${endYear}`;
         }
-        
 
         return (
           <li>
@@ -37,7 +36,7 @@ import { education } from "@cv"
               </footer>
             </article>
           </li>
-        )
+        );
       })
     }
   </ul>
